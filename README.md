@@ -4,8 +4,6 @@ Welcome to my personal Power BI portfolio repository! Here you will find a colle
 ---
 ## [Project 1: DA Weather](/Project_1_Weather/Weather.ipynb)
 
-Consumable Performance Dashboard, a powerful and intuitive data visualization tool built using Power BI. This dashboard offers a comprehensive view of "sales, gross profit and quantity" data for consumable plant products, allowing you to quickly and easily analyze performance and identify trends.
-
 ### Project Usage:
 The commands that I used in this project :
 
@@ -39,19 +37,27 @@ A. 'Weather is Clear' and 'Relative Humidity is greater than 50'
 or
 B. 'Visibility is above 40'
 ---
-## [Project 2: Data Professional Survey Breakdown](/Data_Professional_Survey_BreakDown.pbix)
+---
+## [Project 2: DA Car](/Project_1_Car/Car.ipynb)
 
-Developed a comprehensive Data Professional Survey Breakdown using Power BI, analyzing global survey data from 2022. Delivered insights on trends and patterns within the data profession across various regions, industries, and experience levels. 
+### Project Usage:
+The commands that we used in this project :
 
-**Data Cleaning & Processing**
- - Remove duplicate columns
- - Split column for getting number by replace values
- - Create new column aimed for average salary
- - Format some column such as whole number, etc
- - Do another tasks on purpuse
-![3dash](https://github.com/taytran1510/Power-BI-Portfolio-Project/blob/main/Images/SampleDataProfessionalSurvey.png)
-
-**Charts Visualization**
-![3dash](https://github.com/taytran1510/Power-BI-Portfolio-Project/blob/main/Images/ReviewProfessionalSurvey.png)
+* import pandas as pd -- To import Pandas library
+* pd.read_csv - To import the CSV file in Jupyter notebook
+* head() - It shows the first N rows in the data (by default, N=5)
+* shape - It shows the total no. of rows and no. of columns of the dataframe
+* df.isnull( ).sum( ) - It detects the missing values from each column of the dataframe.
+* fillna() - To fill the null values of a column with some particular value
+* value_counts - In a column, it shows all the unique values with their count. It can be applied to a single column only.
+* isin() - To show all records including particular elements
+* apply() - To apply a function along any axis of DF
+### Concentration:
+* Q. 1) Instruction ( For Data Cleaning ) - Find all Null Values in the dataset. If there is any null value in any column, then fill it with the mean of that column.
+* Q. 2) Question ( Based on Value Counts )- Check what are the different types of Make are there in our dataset. And, what is the count (occurrence) of each Make in the data ?
+* Q. 3) Instruction ( Filtering ) - Show all the records where Origin is Asia or Europe.
+* Q. 4) Instruction ( Removing unwanted records ) - Remove all the records (rows) where Weight is above 4000.
+* Q. 5) Instruction ( Applying function on a column ) - Increase all the values of 'MPG_City' column by 3.
+---
 
 
