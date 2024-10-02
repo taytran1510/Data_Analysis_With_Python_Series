@@ -1,5 +1,5 @@
 # Data Analysis With Python Series
-Welcome to my personal Power BI portfolio repository! Here you will find a collection of Power BI projects and dashboards that demonstrate my skills and expertise in data visualization, business intelligence, and analytics using Power BI.
+I have extensive experience in data processing using Python, for example working on a variety of datasets such as weather patterns, car statistics, police reports, COVID-19 data, London housing trends, Udemy courses, and Netflix content. My projects focus on extracting insights through data cleaning, visualization, and statistical analysis using libraries such as Pandas, Matplotlib, Seaborn, and etc. Through these projects, I aim to provide meaningful, data-driven conclusions, emphasizing clear and actionable insights.
 
 ---
 ## [Project 1: DA Weather](/Project_1_Weather/Weather.ipynb)
