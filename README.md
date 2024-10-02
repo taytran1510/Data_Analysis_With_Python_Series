@@ -19,7 +19,7 @@ The commands that I used in this project :
 * count - It shows the total no. of non-null values in each column. It can be applied on a single column as well as on the whole dataframe.
 * value_counts - In a column, it shows all the unique values with their count. It can be applied on a single column only.
 * info() - Provides basic information about the dataframe.
-### Solution:
+### Concentration:
 * Q. 1)  Find all the unique 'Wind Speed' values in the data.
 * Q. 2) Find the number of times when the 'Weather is exactly Clear'.
 * Q. 3) Find the number of times when the 'Wind Speed was exactly 4 km/h'.
