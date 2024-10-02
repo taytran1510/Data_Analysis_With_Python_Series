@@ -2,7 +2,7 @@
 Welcome to my personal Power BI portfolio repository! Here you will find a collection of Power BI projects and dashboards that demonstrate my skills and expertise in data visualization, business intelligence, and analytics using Power BI.
 
 ---
-## [Project 1: DA Weather](/Weather.ipynb)
+## [Project 1: DA Weather](/Project_1_Weather/Weather.ipynb)
 
 Consumable Performance Dashboard, a powerful and intuitive data visualization tool built using Power BI. This dashboard offers a comprehensive view of "sales, gross profit and quantity" data for consumable plant products, allowing you to quickly and easily analyze performance and identify trends.
 [Profit_Sales_Products.pbix](/Profit_Sales_Products.pbix)
